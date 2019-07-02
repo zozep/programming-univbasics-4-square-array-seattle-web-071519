@@ -4,7 +4,7 @@ def square_array(array)
  
  while count < array.size do
    squaredArray << (array[count] ** 2)
-   count = count + 1
+   count += 1
   end
   squared
 
