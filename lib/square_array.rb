@@ -5,8 +5,9 @@ def square_array(array)
   
   while counter < lastIndex do
     element**2
-    newArray[element]
+    newArray << element
+    puts newArray
+    
     counter+=1
   end
-  return newArray
 end
